@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="styless.css">
+    <script src="https://kit.fontawesome.com/7e8e6d7e2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="my_photos/logo1.jpg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li> 
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Data Analyst</p>
+        <h1>Hi, I'm<span> Hassan</span><br> Abdullahi From Kenya</h1>
+    </div>
+</div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">     
+            <div class="about-col-1">
+                <img src="my_photos/background.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub_title">About Me</h1>
+                <p>Hello, I'm Hassan Abdullhi, a dedicated student at Gretsa University, 
+                    fueled by a fervent passion for data science. 
+                    Currently on the path towards a BSc in computer science, 
+                    I am unwavering in my pursuit to harness the power of data to unveil insights and drive innovation.
+                     With an insatiable curiosity and a determination to make meaningful contributions, 
+                     I eagerly embrace the challenges that come my way.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Analysis</span><br>Manipulating Data</li>
+                            <li><span>Data Visualization</span><br>Use of Python, PowerBi and other tools</li>
+                            <li><span>Data Engineering</span><br>Administration</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021- Current</span><br>Bsc Computer science at Gretsa University</li>
+                            <li><span>2020-2021</span><br>intern Malata computer College</li>
+                        </ul>
+                     </div><div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021- current</span><br>BSc Computer Science- Gretsa University</li>
+                            <li><span>2017-2020</span><br>High school</li>
+                            <li><span>2020</span><br>Google Analytics</li>
+                            
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub_title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Analysis</h2>
+                <p>Data Analysis with variuse tools such as Microsoft Ecxel, PowerBi, python pandas,SQL</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Data Visualization</h2>
+                <p>Data Analysis with variuse tools such as Microsoft Ecxel, PowerBi, python pandas,SQL</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-filter"></i>
+                <h2>Data Formating</h2>
+                <p>Data Analysis with variuse tools such as Microsoft Ecxel, PowerBi, python pandas,SQL</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub_title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="my_photos/photo12.jpg">
+                <div class="layer">
+                    <h3>Data Analysis Work</h3>
+                    <p>This link will take you to my latest analytical works</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+            </div>
+            <div class="work">
+                <img src="my_photos/photo4"> <div class="layer">
+                    <h3>Data Visualization Work</h3>
+                    <p>This link will take you to my latest analytical works</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        </div>
+        <a href="" class="btn">see more</a>
+
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>hassanabdullahibukura@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254710852408</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/herson.abdul.3?mibextid=D4KYlr"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/HassanAdanK?t=c5AcOCKs5OPqR9bG7p-4xw&s=03"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/abbysinian_resident?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/hassan-abdullahi-775301261 "><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="my_photos/My Resume (1.).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Hassan Abdullahi. All Rights Reserved. </p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgs7aof8peDfHNlZDUWt_dPpqugYsTAEoeeiRcsvuSfqaEd-QR74G9OVmDUXJHUbUK/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
